@@ -13,7 +13,7 @@
 4. Thực hiện Run để kiểm tra project có chạy bình thường không.
    * Khi nó chạy bình thường sẽ xuất hiện nhiều tin nhắn. `Started SimpleSNSApplication in 4.489 seconds (JVM running for 5.708)`
 
- ## Đề thi
+## Đề thi
  1. Tạo REST API `POST /posts` để triển khai tính năng thêm `Post`
  2. `POST /posts` Tạo REST API  để triển khai tính năng thêm `Post`
  * sample request body
@@ -30,5 +30,17 @@
  5. `DELETE /post/{postId}` Tạo REST API để triển khai tính năng xóa bài `Post` cụ thể
     `Code`
  6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế `PostResositoryCustom`. Chúng tôi muốn đưa `PostRepositoryCustom` vào `PostService` và hình
+
+## Cách thức nộp bài
+1. Thực hiện clean của gradle task ???
+2. Nén folder project
+3. ĐỔi tên file nén thành email đã dùng để đăng kí tài khoản trên  https://codepresso.io ex) `student@gmail.com`
+4. Upload file nén lên Goole form https://forms.gle/ENZWRwdLqBPgTMZ47
+* Khi nộp ghi email đã đăng kí tài khoản trên https://codepresso.io
+
+## Chú ý
+* Kiểm tra xem file có được biên dịch trước khi nộp
+* Không chỉnh sửa code dưới đây `/src/test`, trường hợp chỉnh sửa sẽ ảnh hưởng đến việc chấm điểm
+* Có thể tra mạng, không được sử dụng GPT
 
    
