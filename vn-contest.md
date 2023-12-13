@@ -15,3 +15,13 @@
 
  ## Đề thi
  1. `POST /posts` tạo REST API thực hiện tính năng thêm `Post`
+    * sample request body
+      (표)
+    * sample response body
+      `{
+  "id": 3,
+  "title": "title1",
+  "content": "content",
+  "createdAt": "2023-12-12T11:10:47.7894438",
+  "updatedAt": "2023-12-12T11:10:47.7894438"
+}`
