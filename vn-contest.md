@@ -15,7 +15,6 @@
 
 ## Đề thi
  1. Tạo REST API `POST /posts` để triển khai tính năng thêm `Post`
- 2. `POST /posts` Tạo REST API  để triển khai tính năng thêm `Post`
  * sample request body
       (표)
  * sample response body
@@ -23,13 +22,15 @@
  2. Tạo REST API `GET /posts` để triển khai tính năng tìm kiếm toàn bộ `Posts`
  * sample request body
    `Code`
- 3. Tạo REST API `GET /posts/{postId}` để triển khai tìm kiếm bài `Post` cụ thể.
+ 3. Tạo REST API `GET /posts/{postId}` để triển khai tìm kiếm `Post` cụ thể.
  * sample response body
- 4. Tạo REST API `GET /posts/{postId}`, chỉnh sửa để trả về status 404 HTTP trong trường hợp không có bài `Post`
+ 4. Tạo REST API `GET /posts/{postId}` để chỉnh sửa để trả về status 404 HTTP trong trường hợp không có bài `Post`
    `Code`
- 5. `DELETE /post/{postId}` Tạo REST API để triển khai tính năng xóa bài `Post` cụ thể
+ 5. Tạo REST API `DELETE /post/{postId}`  để triển khai tính năng xóa bài `Post` cụ thể
     `Code`
- 6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế `PostResositoryCustom`. Chúng tôi muốn đưa `PostRepositoryCustom` vào `PostService` và hình
+ 6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế từ `PostResositoryCustom`. Chúng tôi muốn triển khai business logic quản lý dữ liệu bằng cách đưa `PostRepositoryCustom` vào `PostService`. Khi tạo `ArayList` trong `PostRepositoryImpl` hãy tiêm và đăng ký Spring `@Bean` với tên là `postRepositoryCustom`. Nhất định phải tạo Bean là `postRepositoryCustom`. Trường hợp sử dụng cách khác hoặc tên khác với
+Khi tạo một ArrayList trong PostRepositoryImpl, hãy tiêm nó vào Spring container với tên là "postRepositoryCustom" bằng cách sử dụng @Bean. Hãy chắc chắn rằng bạn sử dụng tên Bean là "postRepositoryCustom", vì nếu sử dụng cách khác hoặc tên khác, có thể bị đánh giá là không đúng.
+
 
 ## Cách thức nộp bài
 1. Thực hiện clean của gradle task ???
