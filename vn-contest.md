@@ -29,4 +29,6 @@
    `Code`
  5. `DELETE /post/{postId}` Tạo REST API để triển khai tính năng xóa bài `Post` cụ thể
     `Code`
- 6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế `PostResositoryCustom`. Chúng tôi muốn đưa `PostRepositoryCustom` vào `PostService` và hình 
+ 6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế `PostResositoryCustom`. Chúng tôi muốn đưa `PostRepositoryCustom` vào `PostService` và hình
+
+   
