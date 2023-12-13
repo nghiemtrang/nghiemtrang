@@ -14,14 +14,18 @@
    * Khi nó chạy bình thường sẽ xuất hiện nhiều tin nhắn. `Started SimpleSNSApplication in 4.489 seconds (JVM running for 5.708)`
 
  ## Đề thi
- 1. `POST /posts` tạo REST API thực hiện tính năng thêm `Post`
-    * sample request body
+ 1. Tạo REST API `POST /posts` để triển khai tính năng thêm `Post`
+ * sample request body
       (표)
-    * sample response body
- `{
-  "id": 3,
-  "title": "title1",
-  "content": "content",
-  "createdAt": "2023-12-12T11:10:47.7894438",
-  "updatedAt": "2023-12-12T11:10:47.7894438"
-}`
+ * sample response body
+   `Code`
+ 2. Tạo REST API `GET /posts` để triển khai tính năng tìm kiếm toàn bộ `Posts`
+ * sample request body
+   `Code`
+ 3. Tạo REST API `GET /posts/{postId}` để triển khai tìm kiếm bài `Post` cụ thể.
+ * sample response body
+ 4. Tạo REST API `GET /posts/{postId}`, chỉnh sửa để trả về status 404 HTTP trong trường hợp không có bài `Post`
+   `Code`
+ 5. `DELETE /post/{postId}` Tạo REST API để triển khai tính năng xóa bài `Post` cụ thể
+    `Code`
+ 6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế `PostResositoryCustom`. Chúng tôi muốn đưa `PostRepositoryCustom` vào `PostService` và hình 
