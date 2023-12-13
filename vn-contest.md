@@ -11,7 +11,7 @@
 3. Giải nén project mẫu và chỉ định đường dẫn
    (사진)
 4. Thực hiện Run để kiểm tra project có chạy bình thường không.
-   * Khi nó chạy bình thường sẽ xuất hiện nhiều tin nhắn. [Started SimpleSNSApplication in 4.489 seconds (JVM running for 5.708)]
+   * Khi nó chạy bình thường sẽ xuất hiện nhiều tin nhắn. `Started SimpleSNSApplication in 4.489 seconds (JVM running for 5.708)`
 
  ## Đề thi
- 1. [POST /posts] tạo REST API thực hiện tính năng thêm [Post]
+ 1. `POST /posts` tạo REST API thực hiện tính năng thêm `Post`
