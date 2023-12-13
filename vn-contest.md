@@ -15,6 +15,7 @@
 
  ## Đề thi
  1. Tạo REST API `POST /posts` để triển khai tính năng thêm `Post`
+ 2. `POST /posts` Tạo REST API  để triển khai tính năng thêm `Post`
  * sample request body
       (표)
  * sample response body
