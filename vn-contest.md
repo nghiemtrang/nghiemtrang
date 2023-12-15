@@ -138,7 +138,7 @@ Tức là khi bắt đầu một build mới bằng cách khởi động môi tr
 
 2. Nén folder project
 3. Đổi tên file nén thành email đã dùng để đăng kí tài khoản trên  https://codepresso.io ex) `student@gmail.com`
-4. Upload file nén lên Goole form https://forms.gle/ENZWRwdLqBPgTMZ47
+4. Upload file nén lên Google form https://forms.gle/ENZWRwdLqBPgTMZ47
 - Khi nộp ghi email đã đăng kí tài khoản trên https://codepresso.io
 
 ## Chú ý`
