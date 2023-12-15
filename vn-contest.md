@@ -103,7 +103,7 @@ Content-Length: 0
 
 6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế từ `PostRepositoryCustom`. Chúng tôi muốn triển khai business logic quản lý dữ liệu bằng cách đưa `PostRepositoryCustom` vào `PostService`. Khi tạo `ArrayList` trong `PostRepositoryImpl` hãy tiêm và đăng ký Spring `@Bean` với tên là `postRepositoryCustom`. 
 
-*Phải tạo Bean với tên là `postRepositoryCustom`.Trương hợp sử dụng cách khác hoặc tên khác có thể sẽ bị tinh là sai* 
+*Phải tạo Bean với tên là `postRepositoryCustom`.Trường hợp sử dụng cách khác hoặc tên khác có thể sẽ bị tinh là sai* 
 
 7. Hãy sử dụng `postRepositoryCustom` để triển khai lưu `PostService.addPost(title, content)`
 - Dựa trên dữ liệu được lưu trữ trong `PostRepositoryImpl`
