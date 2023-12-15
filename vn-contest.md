@@ -118,7 +118,7 @@ ex) Nếu lưu 2 bài `Post` thì id của `Post` được thêm mới phải l�
 - Dựa trên dữ liệu được lưu trong `PostRepositoryImpl`
 
 10. `PostService.delete(id)` là tính năng xóa `Post` dựa vào `id` field. Hãy triển khai tính năng này.
-- Dựa vào dữ liệu được lưu trong PostRepositoryImpl`
+- Dựa vào dữ liệu được lưu trong `PostRepositoryImpl`
 
 11. Hãy viết lệnh SQL sau đây vào `value` trong @Query của phương thức `getComment` của `CommentRepository`
 -  Truy vấn SQL tìm kiếm tất cả các column trong comment dựa vào id
