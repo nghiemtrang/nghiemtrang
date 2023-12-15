@@ -101,7 +101,7 @@ HTTP/1.1 202 Accepted
 Content-Length: 0
 ```
 
-6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế từ `PostResositoryCustom`. Chúng tôi muốn triển khai business logic quản lý dữ liệu bằng cách đưa `PostRepositoryCustom` vào `PostService`. Khi tạo `ArayList` trong `PostRepositoryImpl` hãy tiêm và đăng ký Spring `@Bean` với tên là `postRepositoryCustom`. 
+6. `PostRepositoryImpl` là class quản lý dữ liệu thừa kế từ `PostRepositoryCustom`. Chúng tôi muốn triển khai business logic quản lý dữ liệu bằng cách đưa `PostRepositoryCustom` vào `PostService`. Khi tạo `ArrayList` trong `PostRepositoryImpl` hãy tiêm và đăng ký Spring `@Bean` với tên là `postRepositoryCustom`. 
 
 *Phải tạo Bean với tên là `postRepositoryCustom`.Trương hợp sử dụng cách khác hoặc tên khác có thể sẽ bị tinh là sai* 
 
