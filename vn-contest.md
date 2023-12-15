@@ -86,7 +86,7 @@
 }
 ```
 
-4. Tạo REST API `GET /posts/{postId}` để chỉnh sửa trả về status 404 HTTP trong trường hợp không có bài `Post`
+4. Tạo REST API `GET /posts/{postId}` để chỉnh sửa trả về status 404 HTTP trong trường hợp không có bài `Post` cụ thể
 
 ```http request
 HTTP/1.1 404 Not Found
