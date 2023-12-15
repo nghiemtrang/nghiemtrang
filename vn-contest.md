@@ -18,7 +18,7 @@
 ![open-dialog](https://gist.github.com/assets/138753646/850500cb-a772-4f5e-bc21-dbbc38a4f26e)
 
 4. Thực hiện Run để kiểm tra project có chạy bình thường không.
-   * Khi nó chạy bình thường sẽ xuất hiện nhiều tin nhắn. `Started SimpleSNSApplication in 4.489 seconds (JVM running for 5.708)`
+   * Khi chạy bình thường sẽ xuất hiện nhiều dòng tin nhắn (message). `Started SimpleSNSApplication in 4.489 seconds (JVM running for 5.708)`
 
 ![run-project](https://gist.github.com/assets/138753646/036d1c2f-e668-4c55-8436-8c4c76af9e27)
 
