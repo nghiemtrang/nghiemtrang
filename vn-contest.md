@@ -73,7 +73,7 @@
 ```
 
 
-3. Tạo REST API `GET /posts/{postId}` để triển khai tìm kiếm `Post` cụ thể.
+3. Tạo REST API `GET /posts/{postId}` để triển khai tính năng tìm kiếm `Post` cụ thể.
 
 - sample response body
 ```json 
