@@ -141,7 +141,7 @@ Tức là khi bắt đầu một build mới bằng cách khởi động môi tr
 4. Upload file nén lên Google form https://forms.gle/ENZWRwdLqBPgTMZ47
 - Khi nộp ghi email đã đăng kí tài khoản trên https://codepresso.io
 
-## Chú ý`
+## Chú ý
 - Kiểm tra xem file có được biên dịch trước khi nộp
 - Không chỉnh sửa code dưới đây `/src/test`, trường hợp chỉnh sửa sẽ ảnh hưởng đến việc chấm điểm
 - Có thể tra mạng, không được sử dụng GPT
