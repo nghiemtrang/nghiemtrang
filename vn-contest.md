@@ -133,7 +133,7 @@ ex) findComments("abc") =>
 
 ## Cách thức nộp bài
 1. Thực hiện nhiệm vụ clean của gradle task (Không bắt buộc)
- > ref) gradle clean là task xóa tất cả kết quả đầu ra output như gradle cache và gradle directory v.v, bao gồm tất cả build artifact được tạo ra thông qua gradle build; nhiệm vụ này đóng vai trò đưa dự án trở lại trạng thái trạng thái như khi chúng ta mới build dự án lần đầu tiên. 
+ > ref) gradle clean là task xóa tất cả kết quả đầu ra output như gradle cache và gradle directory v.v, bao gồm tất cả build artifact được tạo ra thông qua gradle build; nhiệm vụ này đóng vai trò đưa dự án trở lại trạng thái như khi chúng ta mới build dự án lần đầu tiên. 
 Tức là khi bắt đầu một build mới bằng cách khởi động môi trường build thông qua gradle clean, nó có thể được rút ngắn thời gian xây dựng do không bị ảnh hưởng bởi cache và build directory cũ, và cải thiện tính ổn định của build do không còn vấn đề hoặc lỗi phát sinh trong build trước đó.
 
 2. Nén folder project
