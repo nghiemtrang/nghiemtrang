@@ -107,7 +107,7 @@ Content-Length: 0
 
 7. Hãy sử dụng `postRepositoryCustom` để triển khai lưu `PostService.addPost(title, content)`
 - Dựa trên dữ liệu được lưu trữ trong `PostRepositoryImpl`
-- Khi lưu các đối tượng(Object) trong `PostRepositoryImpl` triển khai để tăng id từng lần 1 so với `posts` vốn có
+- Hãy triển khai để id tăng lên 1 so với `posts` vốn có khi lưu các đối tượng(Object) trong `PostRepositoryImpl` 
 ex) Nếu lưu 2 bài `Post` thì id của `Post` được thêm mới phải là 2 (id bắt đầu từ 0, id của post vốn có là 0 và 1)
 
 8. Triển khai `PostService.getPostList()` để tìm kiếm toàn bộ bài `Post`
